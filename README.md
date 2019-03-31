@@ -19,10 +19,10 @@
 #### Описание таблицы
 
 ``
-CREATE TABLE books (
-    id SERIAL PRIMARY KEY,
-    author VARCHAR(200) NOT NULL,
-    title VARCHAR(50) NOT NULL,
-    short_descr VARCHAR(500) NOT NULL
+CREATE TABLE books (  
+    id SERIAL PRIMARY KEY,  
+    author VARCHAR(200) NOT NULL,  
+    title VARCHAR(50) NOT NULL,  
+    short_descr VARCHAR(500) NOT NULL  
 );
 ``
