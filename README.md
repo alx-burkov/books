@@ -18,7 +18,7 @@
 
 #### Описание таблицы
 
-```
+```sql
 CREATE TABLE books (
     id SERIAL PRIMARY KEY,
     author VARCHAR(200) NOT NULL,
